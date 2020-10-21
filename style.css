@@ -18,6 +18,7 @@ span.orange{
 p{
 	padding: 0px;
 	margin: 0px;
+	color : brown;
 }
 p.middle_text{
 line-height:13px;
