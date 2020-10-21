@@ -1,0 +1,242 @@
+body{
+    background-image: url(../fotos/desenfoque.jpg); 
+    background-attachment: fixed;
+    background-size: cover;
+    /*background-size: 100% 100%;*/
+    background-position: center center;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+    color: aliceblue;
+}
+
+.navlogo span{
+    color: aqua;
+}
+.navlogo a span{
+    color: aqua;
+    font-size: 25px;
+}
+
+nav{
+    font-size: 25px;
+}
+.seccion{
+    
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    text-align: center;
+    color: aliceblue;
+}
+
+.tamanio{
+    width: 85%;
+    height: 100%;
+    margin: 0 auto;
+    padding: 30px;
+}
+
+.fondodark{
+    margin-top: 30px;
+	background-image: url(../fotos/dark.jpg); 
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    border-radius: 25px;
+    margin-block-end: 30px;
+    margin-block-end: 30px;
+}
+
+header{
+    margin-top: 10px;
+}
+
+.liststyle{
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+footer{
+    display: inline-block;
+    width: 100%;
+    position: static;
+}
+
+table {
+    width: 100%;
+    border: solid;
+    text-align: center;
+    background-image: url(../fotos/dark.jpg); 
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    border-radius: 26px;
+}
+    
+td, th{
+    border:groove;
+    border-radius: 26px;
+}
+th {
+    border-radius: 26px;
+    background-color:orangered;
+}
+
+img{
+    width: 80%;
+    height: 100%;
+}
+
+/* form */
+.box{
+    width: 100%;
+    background-image: url(dark.jpg); 
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    text-align: center;
+    border-radius: 26px;
+    padding-top: 30px;
+    padding-block-end: 30px;
+    font-size: 200;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.box h1{
+    text-transform: uppercase;
+    font-size: 500;
+}
+
+.box p{
+    font-size: 250;
+}
+
+#tel input[type = "tel"], .box input[type = "text"], .box input[type = "email"], .box select, .box textarea, .box input [type="number"]{
+    border: 30px;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #3498db;
+    padding: 14px 10px;
+    width: 75%;
+    outline: none;
+    color: white;
+    border-radius: 25px;
+    transition: 0.25s;
+}
+
+.box input [type="tel"]:focus, .box input [type="number"]:focus,box input[type = "text"]:focus, .box input[type = "email"]:focus, .box select:focus, .box textarea:focus{
+    width: 80%;
+    border-color: #2ecc71;
+}
+
+.box input[type = "button"], .box button{
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #2ecc71;
+    padding: 14px 40px;
+    width: 40%;
+    outline: none;
+    border-radius: 25px;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-size: 500;
+    color: white;
+}
+
+#verificaelcaptcha input[type="number"]{
+    border: 30px;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #3498db;
+    padding: 14px 10px;
+    width: 75%;
+    outline: none;
+    color: white;
+    border-radius: 25px;
+    transition: 0.25s;
+}
+
+#verificaelcaptcha input[type="number"]:focus{
+    width: 80%;
+    border-color: #2ecc71;
+}
+
+#verificaelcaptcha{
+    margin: 0 auto;
+    width: 75%;
+    border: 2px;
+    border-radius: 23px;
+    border-style: solid;
+    border-color: #3498db;
+}
+
+#verificaelcaptcha img{
+    width: 40px;
+}
+
+ input[type="number"]{
+    border: 30px;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #3498db;
+    padding: 14px 10px;
+    width: 75%;
+    outline: none;
+    color: white;
+    border-radius: 25px;
+    transition: 0.25s;
+}
+
+ input[type="number"]:focus{
+    width: 80%;
+    border-color: #2ecc71;
+}
+
+
+.infor{
+    text-align: center;
+    width: 100%;
+    border: 1px;
+    border-color: white;
+    border-style: double;  
+}
+
+.infor div{
+    display: inline-block;
+}
+
+.infor img{
+    width: 200px;
+}
+.inforimg{
+    width: 200px;
+}
+
+.infortext{
+    width: 80%;
+}
+
+
+
+button{
+    background: rgb(223, 128, 12);
+    
+    margin: 20px auto;
+    text-align: center;
+    border: 3px solid orangered;
+    padding: 10px 30spx;
+    width: 40%;
+    outline: none;
+    border-radius: 50px;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-size: 500;
+    color: white;
+}
